@@ -1,3 +1,3 @@
 # Python solutions
-
-Run `ptw -- -- testmon` and rock 'n roll
+- Install requirements on venv
+- Run `ptw -- -- testmon` and rock 'n roll
