@@ -1,4 +1,14 @@
-import twoSum from './sol1';
+const twoSum = (nums: number[], target: number): number[] => {
+    const map = new Map<number, number>();
+    for (let i = 0; i < nums.length; i++) {
+        const complement = target - nums[i];
+        if (map.has(complement)) {
+        return [map.get(complement)!, i];
+        }
+        map.set(nums[i], i);
+    }
+    return [];
+};
 
 describe('twoSum', () => {
     it('should return the indices of the two numbers that add up to the target', () => {
