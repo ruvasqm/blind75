@@ -20,4 +20,6 @@
     nums[k] == 0`.
 
     **Notice** that the solution set must not contain duplicate triplets.
-
+6. Remove Nth Node from end of list
+    - Given the `head` of a linked list, remove the `n<super>th</super>` node
+    from the end of the list and return its head.
