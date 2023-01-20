@@ -1,0 +1,17 @@
+{
+  "name": "blind75",
+  "version": "0.0.1",
+  "description": "Solutions to blind75 questions written in Typescript\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch --passWithNoTests"
+  },
+  "author": "Ruben Vasquez",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.2.6",
+    "jest": "^29.3.1",
+    "ts-jest": "^29.0.5",
+    "typescript": "^4.9.4"
+  }
+}
