@@ -42,4 +42,8 @@
     splicing together the nodes of the first two lists.
 
     Return *the head of the merged linked list*.
+9. Merge k sorted lists
+    You are given an array of `k` linked-lists `lists`, each linked-list is
+    sorted in ascending order.
 
+    *Merge all the linked-lists into **one sorted* linked-list and return it*.
