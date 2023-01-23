@@ -1,9 +1,13 @@
 # Blind75 software interview questions
 
+These are problems from [the famous post][https://www.techinterviewhandbook.org/coding-interview-study-plan/],
+and [in leetcode][https://leetcode.com/list/9pg1ipdh/]
+
 1. Two Sum
 2. Longest Substring Without Repeating Characters
 3. Longest Palindromic Substring
 4. Container With Most Water
+
     You are given an integer array `height` of length n. There are `n`
     vertical lines drawn such that the two endpoints of the `i<sup>ith</sup>`
     line are `(i,0)` and `(i, height[i])`.
@@ -15,15 +19,18 @@
 
     **Notice** that you may not slant the container.
 5. 3Sum
+
     Given an integer array nums, return all triplets `[nums[i], nums[j],
     nums[k]]` such that `i !=j, i!=k` and `j !=k`, and `nums[i] + nums[j] +
     nums[k] == 0`.
 
     **Notice** that the solution set must not contain duplicate triplets.
 6. Remove Nth Node from end of list
+
     Given the `head` of a linked list, remove the `n<super>th</super>` node
     from the end of the list and return its head.
 7. Valid parentheses
+
     Given a string `s` containig just the characters `'('`, `')'`, `'{'`,
     `'}'`, `'['`, and `']'`, determine if the input string is valid.
 
@@ -43,11 +50,14 @@
 
     Return *the head of the merged linked list*.
 9. Merge k sorted lists
+
     You are given an array of `k` linked-lists `lists`, each linked-list is
     sorted in ascending order.
 
     *Merge all the linked-lists into **one sorted* linked-list and return it*.
-10. There is an integer array `nums` sorted in ascending order (with
+10. Search in rotated sorted array
+
+    There is an integer array `nums` sorted in ascending order (with
     **distinct** values).
 
     Prior to being passed to your function, `nums` is **possibly rotated** at
@@ -67,7 +77,9 @@
     - All values of `nums` are **unique**.
     - `nums` is an ascending array that is **possibly** rotated.
     - `-10^4 <= target <= 10^4`
-11. Given an array of **distinct** integers `candidates` and a target integer
+11. Combination sum
+
+    Given an array of **distinct** integers `candidates` and a target integer
     `target`, return a list of all **unique combinations** of `candidates`
     where the *chosen numbers sum to* `target`. You may return the combinations
     in **any order**.
@@ -83,3 +95,15 @@
     - `2 <= candidates[i] <= 40`
     - All elements of candidates are **distinct**.
     - `1 <= target <= 40`
+12. Rotate Image
+
+    You are given an `n x n` 2D `matrix` representing an image, rotate the
+    image by **90** degrees (clockwise).
+
+    You have to rotate the image in-place, which means you have to modify the
+    input 2D matrix directly. **DO NOT** allocate another 2D matrix and do the
+    rotation.
+
+    - `n == matrix.length == matrix[i].length`
+    - 1 <= n <= 20`
+    - `-1000 <= matrix[i][j] <= 1000`
