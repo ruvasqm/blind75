@@ -1,7 +1,7 @@
 # Blind75 software interview questions
 
-These are problems from [the famous post][https://www.techinterviewhandbook.org/coding-interview-study-plan/],
-and [in leetcode][https://leetcode.com/list/9pg1ipdh/]
+These are problems from [the famous post](https://www.techinterviewhandbook.org/coding-interview-study-plan/),
+and [in leetcode](https://leetcode.com/list/9pg1ipdh/)
 
 1. Two Sum
 2. Longest Substring Without Repeating Characters
