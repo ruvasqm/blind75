@@ -1,4 +1,4 @@
-package sol1
+package blind75
 
 import "testing"
 

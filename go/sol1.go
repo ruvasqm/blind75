@@ -1,4 +1,4 @@
-package sol1
+package blind75
 
 func TwoSum(nums []int, target int) []int {
     m := make(map[int]int)

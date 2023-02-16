@@ -2,7 +2,7 @@
   "name": "go",
   "packageManager": "yarn@3.4.1",
   "scripts": {
-    "dev": "nodemon -e go --exec go test . -v"
+    "dev": "nodemon -e go --exec \"go test $(./git_dif.zsh) -v\""
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
