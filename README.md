@@ -132,5 +132,4 @@ rotation.
 
 - <code>n == matrix.length == matrix[i].length</code>
 - <code>1 <= n <= 20</code>
-<!-- markdownlint-disable MD052 -->
-- <code>-1000 <= matrix[i][j] <= 1000</code>
+- <code>-1000 <= matrix[i][j] <= 1000</code><!-- markdownlint-disable MD052 -->
